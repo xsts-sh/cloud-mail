@@ -51,7 +51,7 @@ watch(() => uiStore.changePreview, () => {
 })
 
 function showNotice(data) {
-
+  return;
   if (data.notice === 1) {
     return;
   }
